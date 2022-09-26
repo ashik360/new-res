@@ -30,7 +30,7 @@ body{
 }
 
 .hf-menu{
-	height: 45px;
+	height: 55px;
 	width: 100%;
 	background: #f5f6fa;
 	margin-top: 20px;
@@ -41,7 +41,7 @@ body{
 .hf-menu nav ul li{
 	display: inline-flex;
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 90%;
+	font-size: 140%;
 	padding-left: 40px; 
 	padding-right: 28px;
 	color: #535c68;
@@ -49,7 +49,7 @@ body{
 }
 
 .hf-menu nav ul li a{
-	font-size: 28px;
+	
 	color: #535c88;
 	text-decoration: none;
 	text-align: center;
@@ -153,6 +153,55 @@ body{
 .footer-menu nav ul li a{
 	font-size: 15px;
 }
+@media only screen and (min-width:721) and (max-width:1080px){
+	
+	.menu nav ul li{
+		padding-bottom: 15px;
+	}
+	.box{
+		display: block;
+	}
+	.box-deco{
+		width: 45%;
+	}
+}
+
+@media only screen and (min-width:481px) and (max-width:720px){
+	body{
+		padding: 0px 15px;
+	}
+	.hf-menu{
+		height: 20%;
+	}
+	.hf-menu ul li a{
+		font-size: 20px;
+		padding-bottom: 15px;
+	}
+	.hf-menu ul li{
+		
+	}
+	.content-wraper{
+		width: 160%;
+		margin-left: -20%;
+	}
+	.box{
+		display: inline-block;
+	}
+	.box-deco{
+		width: 100%;
+		margin-bottom: 10px;
+		
+			}
+	.team{
+		display: inline-block;
+		
+	}
+	.t-1{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
+
 
 @media only screen and (min-width:320px) and (max-width:480px){
 	body{
@@ -168,8 +217,8 @@ body{
 	background: #f5f6fa;
 	margin-top: 20px;
 	padding-top: 17px;
-	padding: 0px 0px;
-	padding-left: 15px;
+	padding: 0px 5px;
+	padding-left: px;
 }
 
 	.hf-menu nav ul li {
@@ -177,7 +226,7 @@ body{
 		font-family: 'Ubuntu', sans-serif;
 		font-size: 11.5px;
 		padding-left: 15px;
-		padding-right: 19px;
+		padding-right: 15px;
 		color: #535c68;
 		list-style: none;
 		padding-top: 5px;
@@ -190,7 +239,7 @@ body{
 			background: #535c68;
 			color: #fff;
 			padding: 50px 60px;
-			margin-left:0px;
+			margin-left: -10px;
 		  }
 		  .content-wraper {
 			width: 90%;
