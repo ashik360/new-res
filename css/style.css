@@ -154,7 +154,7 @@ body{
 	font-size: 15px;
 }
 
-@media only screen and (min-width:320px) and (max-width:425px){
+@media only screen and (min-width:320px) and (max-width:480px){
 	body{
 		padding: 10px;
 	}
@@ -163,19 +163,21 @@ body{
 	}
 
 	.hf-menu {
-  height: 75px;
-  width: 95%;
-  background: #f5f6fa;
-  margin-top: 20px;
-  padding-top: 17px;
-	padding: 0px 25px;}
+	height: 75px;
+	width: 95%;
+	background: #f5f6fa;
+	margin-top: 20px;
+	padding-top: 17px;
+	padding: 0px 0px;
+	padding-left: 15px;
+}
 
 	.hf-menu nav ul li {
 		display: inline-flex;
 		font-family: 'Ubuntu', sans-serif;
 		font-size: 11.5px;
 		padding-left: 15px;
-		padding-right: 15px;
+		padding-right: 19px;
 		color: #535c68;
 		list-style: none;
 		padding-top: 5px;
@@ -188,7 +190,7 @@ body{
 			background: #535c68;
 			color: #fff;
 			padding: 50px 60px;
-			margin-left: -10px;
+			margin-left:0px;
 		  }
 		  .content-wraper {
 			width: 90%;
